@@ -3,7 +3,7 @@ import {StyleSheet, View, Text} from 'react-native'
 import FormMedia from "../../componetes/form/FormMedia";
 
 
-export default function CalculoMedia(){
+export default function CadastroImoveis(){
     return(
         <View style={styles.container}>
             <FormMedia></FormMedia>

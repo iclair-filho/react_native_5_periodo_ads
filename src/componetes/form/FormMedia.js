@@ -25,27 +25,13 @@ export default function FormMedia(){
 
     return(
         <View style={styles.conteudo}>
-          <Text style={styles.title}>Cáculo de Média</Text>
+          <Text style={styles.title}>Cadastro de Imóveis</Text>
           <TextInput
             style={styles.input}
-            value={nota1}
-            onChangeText={(nota1)=>setnota1(nota1) }
-            placeholder="Digite sua 1ª nota"
-            keyboardType='numeric'
-          />
-          <TextInput
-            style={styles.input}
-            value={nota2}
-            onChangeText={(nota2)=>setnota2(nota2) }
-            placeholder="Digite sua 2ª nota"
-            keyboardType='numeric'
-          />
-          <TextInput
-            style={styles.input}
-            value={nota3}
-            onChangeText={(nota3)=>setnota3(nota3) }
-            placeholder="Digite sua 3ª nota"
-            keyboardType='numeric'
+            value={endereco}
+            // onChangeText={(nota1)=>setnota1(nota1) }
+            placeholder="Endereço do Imóveel"
+            // keyboardType=''
           />
           <Button
             style={styles.btn}

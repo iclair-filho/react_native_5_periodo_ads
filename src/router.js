@@ -5,7 +5,7 @@ import { AntDesign } from '@expo/vector-icons';
 
 import Pesquisa from './pages/Pesquisa';
 import Profile from './pages/Profile';
-import CalculoMedia from "./pages/CalculoMedia";
+import CalculoMedia from "./pages/CadastroImoveis";
 import ValidaValor from "./pages/ValidaValor";
 
 const Tab = createBottomTabNavigator();
@@ -16,7 +16,7 @@ export default function Router(){
             style={styles.taboption}
         >
             <Tab.Screen
-            name = "Calculo da Média"
+            name = "Cadastro de Imóveis"
             component={CalculoMedia}
             options={{
                 tabBarIcon:({size, color})=>(
@@ -25,7 +25,7 @@ export default function Router(){
             }}
             />
             <Tab.Screen
-            name = "Validar Valor"
+            name = "Listagem"
             component={ValidaValor}
             options={{
                 tabBarIcon:({size, color})=>(
@@ -34,7 +34,7 @@ export default function Router(){
             }}
             />
             <Tab.Screen
-            name = "Pesquisa"
+            name = "Editar"
             component={Pesquisa}
             options={{
                 tabBarIcon:({size, color})=>(
@@ -43,7 +43,7 @@ export default function Router(){
             }}
             />
             <Tab.Screen
-            name = "Usuário"
+            name = "Excluir"
             component={Profile}
             options={{
                 tabBarIcon:({size, color})=>(
