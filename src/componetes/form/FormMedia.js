@@ -8,17 +8,8 @@ export default function FormMedia(){
 
     
 
-    function CalculoMedia() {
-      const media = (parseFloat(nota1) + parseFloat(nota2) + parseFloat(nota3) )/3 
-
-      if (media<4) {
-
-        alert('Sua média foi: ' + media.toFixed(2) + '. Você está REPROVADOR!');
-      } else if (media>4 && media<7) {
-        alert('Sua média foi: ' + media.toFixed(2) + '. Você está EM RECUPERAÇÃO!');
-      }else if(media>7) {
-        alert('Sua média foi: ' + media.toFixed(2) + '. Você está APROVADO!');
-      }
+    function Cadastrar() {
+      
       
 
     }
@@ -35,8 +26,8 @@ export default function FormMedia(){
           />
           <Button
             style={styles.btn}
-            onPress={CalculoMedia}
-            title="Calcular Média"
+            onPress={Cadastrar}
+            title="Cadastrar"
             
           />
           
