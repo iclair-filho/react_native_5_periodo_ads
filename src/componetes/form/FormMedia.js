@@ -2,12 +2,7 @@ import { StyleSheet, View, TextInput, Button, Text } from 'react-native';
 import { useState } from 'react/cjs/react.development';
 
 export default function FormMedia(){
-    const [nota1, setnota1] = useState(null);
-    const [nota2, setnota2] = useState(null);
-    const [nota3, setnota3] = useState(null);
-
-    
-
+   
     function Cadastrar() {
       
       
@@ -16,13 +11,77 @@ export default function FormMedia(){
 
     return(
         <View style={styles.conteudo}>
-          <Text style={styles.title}>Cadastro de Imóveis</Text>
+          <Text style={styles.title}>Cadastro</Text>
           <TextInput
             style={styles.input}
-            //value={endereco}
+            // value={endereco}
             // onChangeText={(nota1)=>setnota1(nota1) }
-            placeholder="Endereço do Imóveel"
-            // keyboardType=''
+            placeholder="Endereço de Imóvel"
+            
+            
+          />
+          <TextInput
+            style={styles.input}
+            // value={bairro}
+            // onChangeText={(nota1)=>setnota1(nota1) }
+            placeholder="Bairro"
+            
+          />
+          <TextInput
+            style={styles.input}
+            // value={bairro}
+            // onChangeText={(nota1)=>setnota1(nota1) }
+            placeholder="Bairro"
+            
+          />
+          <TextInput
+            style={styles.input}
+            // value={bairro}
+            // onChangeText={(nota1)=>setnota1(nota1) }
+            placeholder="Bairro"
+            
+          />
+          <TextInput
+            style={styles.input}
+            // value={bairro}
+            // onChangeText={(nota1)=>setnota1(nota1) }
+            placeholder="Bairro"
+            
+          />
+          <TextInput
+            style={styles.input}
+            // value={bairro}
+            // onChangeText={(nota1)=>setnota1(nota1) }
+            placeholder="Bairro"
+            
+          />
+          <TextInput
+            style={styles.input}
+            // value={bairro}
+            // onChangeText={(nota1)=>setnota1(nota1) }
+            placeholder="Bairro"
+            
+          />
+          <TextInput
+            style={styles.input}
+            // value={bairro}
+            // onChangeText={(nota1)=>setnota1(nota1) }
+            placeholder="Bairro"
+            
+          />
+          <TextInput
+            style={styles.input}
+            // value={bairro}
+            // onChangeText={(nota1)=>setnota1(nota1) }
+            placeholder="Bairro"
+            
+          />
+          <TextInput
+            style={styles.input}
+            // value={bairro}
+            // onChangeText={(nota1)=>setnota1(nota1) }
+            placeholder="Bairro"
+            
           />
           <Button
             style={styles.btn}
