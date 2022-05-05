@@ -6,8 +6,8 @@ export default function HeaderPrincipal(){
     return(
     
       <LinearGradient style={styles.header} colors={['#F7C21C', 'transparent']}>
-        <AntDesign style={styles.icon} name="calculator"/>
-        <Text style={styles.title}>Calculos</Text>
+        <AntDesign style={styles.icon} name="home"/>
+        <Text style={styles.title}>Imobiliária João Victor e Iclair</Text>
   
       </LinearGradient>
       
