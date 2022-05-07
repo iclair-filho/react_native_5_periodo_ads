@@ -22,6 +22,58 @@ const data = [
         title: 'Ghostbusters',
         year: '1984',
     },
+    {
+        id: 2,
+        title: 'Ghostbusters',
+        year: '1984',
+    },
+    {
+        id: 2,
+        title: 'Ghostbusters',
+        year: '1984',
+    },
+    {
+        id: 2,
+        title: 'Ghostbusters',
+        year: '1984',
+    },
+    {
+        id: 2,
+        title: 'Ghostbusters',
+        year: '1984',
+    },    {
+        id: 2,
+        title: 'Ghostbusters',
+        year: '1984',
+    },    {
+        id: 2,
+        title: 'Ghostbusters',
+        year: '1984',
+    },    {
+        id: 2,
+        title: 'Ghostbusters',
+        year: '1984',
+    },    {
+        id: 2,
+        title: 'Ghostbusters',
+        year: '1984',
+    },    {
+        id: 2,
+        title: 'Ghostbusters',
+        year: '1984',
+    },    {
+        id: 2,
+        title: 'Ghostbusters',
+        year: '1984',
+    },    {
+        id: 2,
+        title: 'Ghostbusters',
+        year: '1984',
+    },    {
+        id: 2,
+        title: 'Ghostbusters',
+        year: '1984',
+    },
 ]
 
 export default function MyComponent() {
@@ -29,6 +81,10 @@ export default function MyComponent() {
         <DataTable
             columns={columns}
             data={data}
+            pagination
+            responsive
+            highlightOnHover
+            fixedHeader
         />
     );
 };
